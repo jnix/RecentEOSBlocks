@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B2661D4621545CF100E6305B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D4521545CF100E6305B /* AppDelegate.swift */; };
-		B2661D4821545CF100E6305B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D4721545CF100E6305B /* ViewController.swift */; };
+		B218DCFE2154CBE40025F419 /* ThirdPartyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B218DCFD2154CBE40025F419 /* ThirdPartyExtensions.swift */; };
+		B218DD0021563E140025F419 /* EOSBlockListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7321546C6600E6305B /* EOSBlockListTableViewController.swift */; };
+		B218DD01215640400025F419 /* EOSInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7721548E7300E6305B /* EOSInfo.swift */; };
+		B218DD02215640500025F419 /* ThirdPartyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B218DCFD2154CBE40025F419 /* ThirdPartyExtensions.swift */; };
+		B2661D4621545CF100E6305B /* EOSBlocksAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D4521545CF100E6305B /* EOSBlocksAppDelegate.swift */; };
+		B2661D4821545CF100E6305B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D4721545CF100E6305B /* MainViewController.swift */; };
 		B2661D4B21545CF100E6305B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2661D4921545CF100E6305B /* Main.storyboard */; };
 		B2661D4D21545CF100E6305B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2661D4C21545CF100E6305B /* Assets.xcassets */; };
 		B2661D5021545CF100E6305B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2661D4E21545CF100E6305B /* LaunchScreen.storyboard */; };
 		B2661D5B21545CF100E6305B /* RecentEOSBlocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D5A21545CF100E6305B /* RecentEOSBlocksTests.swift */; };
 		B2661D6621545CF100E6305B /* RecentEOSBlocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D6521545CF100E6305B /* RecentEOSBlocksUITests.swift */; };
+		B2661D7421546C6600E6305B /* EOSBlockListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7321546C6600E6305B /* EOSBlockListTableViewController.swift */; };
+		B2661D7621547D1E00E6305B /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7521547D1E00E6305B /* MainNavigationController.swift */; };
+		B2661D7821548E7300E6305B /* EOSInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7721548E7300E6305B /* EOSInfo.swift */; };
+		B2661D7A21548FB600E6305B /* EOSBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7921548FB600E6305B /* EOSBlock.swift */; };
+		B2661D7B21548FB600E6305B /* EOSBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7921548FB600E6305B /* EOSBlock.swift */; };
+		B2661D7D215492BB00E6305B /* EOSTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7C215492BB00E6305B /* EOSTransaction.swift */; };
+		B2661D7E215492BB00E6305B /* EOSTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7C215492BB00E6305B /* EOSTransaction.swift */; };
+		B2661D802154A18400E6305B /* EOSBlockDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7F2154A18400E6305B /* EOSBlockDetailVC.swift */; };
+		B2661D812154A18400E6305B /* EOSBlockDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2661D7F2154A18400E6305B /* EOSBlockDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B218DCFD2154CBE40025F419 /* ThirdPartyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyExtensions.swift; sourceTree = "<group>"; };
 		B2661D4221545CF100E6305B /* RecentEOSBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecentEOSBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2661D4521545CF100E6305B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2661D4721545CF100E6305B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2661D4521545CF100E6305B /* EOSBlocksAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOSBlocksAppDelegate.swift; sourceTree = "<group>"; };
+		B2661D4721545CF100E6305B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B2661D4A21545CF100E6305B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2661D4C21545CF100E6305B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2661D4F21545CF100E6305B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		B2661D6121545CF100E6305B /* RecentEOSBlocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecentEOSBlocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2661D6521545CF100E6305B /* RecentEOSBlocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentEOSBlocksUITests.swift; sourceTree = "<group>"; };
 		B2661D6721545CF100E6305B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2661D7321546C6600E6305B /* EOSBlockListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOSBlockListTableViewController.swift; sourceTree = "<group>"; };
+		B2661D7521547D1E00E6305B /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		B2661D7721548E7300E6305B /* EOSInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EOSInfo.swift; path = models/EOSInfo.swift; sourceTree = "<group>"; };
+		B2661D7921548FB600E6305B /* EOSBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EOSBlock.swift; path = models/EOSBlock.swift; sourceTree = "<group>"; };
+		B2661D7C215492BB00E6305B /* EOSTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EOSTransaction.swift; path = models/EOSTransaction.swift; sourceTree = "<group>"; };
+		B2661D7F2154A18400E6305B /* EOSBlockDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOSBlockDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,16 @@
 		B2661D4421545CF100E6305B /* RecentEOSBlocks */ = {
 			isa = PBXGroup;
 			children = (
-				B2661D4521545CF100E6305B /* AppDelegate.swift */,
-				B2661D4721545CF100E6305B /* ViewController.swift */,
+				B2661D4521545CF100E6305B /* EOSBlocksAppDelegate.swift */,
+				B2661D4721545CF100E6305B /* MainViewController.swift */,
+				B2661D7521547D1E00E6305B /* MainNavigationController.swift */,
 				B2661D4921545CF100E6305B /* Main.storyboard */,
+				B218DCFD2154CBE40025F419 /* ThirdPartyExtensions.swift */,
+				B2661D7F2154A18400E6305B /* EOSBlockDetailVC.swift */,
+				B2661D7721548E7300E6305B /* EOSInfo.swift */,
+				B2661D7921548FB600E6305B /* EOSBlock.swift */,
+				B2661D7C215492BB00E6305B /* EOSTransaction.swift */,
+				B2661D7321546C6600E6305B /* EOSBlockListTableViewController.swift */,
 				B2661D4C21545CF100E6305B /* Assets.xcassets */,
 				B2661D4E21545CF100E6305B /* LaunchScreen.storyboard */,
 				B2661D5121545CF100E6305B /* Info.plist */,
@@ -259,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2661D4821545CF100E6305B /* ViewController.swift in Sources */,
-				B2661D4621545CF100E6305B /* AppDelegate.swift in Sources */,
+				B2661D7821548E7300E6305B /* EOSInfo.swift in Sources */,
+				B2661D7421546C6600E6305B /* EOSBlockListTableViewController.swift in Sources */,
+				B2661D4821545CF100E6305B /* MainViewController.swift in Sources */,
+				B2661D7D215492BB00E6305B /* EOSTransaction.swift in Sources */,
+				B2661D7621547D1E00E6305B /* MainNavigationController.swift in Sources */,
+				B2661D4621545CF100E6305B /* EOSBlocksAppDelegate.swift in Sources */,
+				B218DCFE2154CBE40025F419 /* ThirdPartyExtensions.swift in Sources */,
+				B2661D7A21548FB600E6305B /* EOSBlock.swift in Sources */,
+				B2661D802154A18400E6305B /* EOSBlockDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B218DD02215640500025F419 /* ThirdPartyExtensions.swift in Sources */,
+				B218DD0021563E140025F419 /* EOSBlockListTableViewController.swift in Sources */,
+				B2661D7E215492BB00E6305B /* EOSTransaction.swift in Sources */,
 				B2661D5B21545CF100E6305B /* RecentEOSBlocksTests.swift in Sources */,
+				B218DD01215640400025F419 /* EOSInfo.swift in Sources */,
+				B2661D7B21548FB600E6305B /* EOSBlock.swift in Sources */,
+				B2661D812154A18400E6305B /* EOSBlockDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
