@@ -26,14 +26,14 @@ Model decoding from JSON is tested, as well as a network fetch of the blockchain
 ### Code Structure
 
 This project uses the storyboard.
-The Main screen is implemented in ```MainViewController.swift```.
-The List screen is implemented in ```EOSBlockListTableViewController.swift```.
-The Block Details screen is implemented in ```EOSBlockDetailVC.swift```.
+- The Main screen is implemented in ```MainViewController.swift```
+- The List screen is implemented in ```EOSBlockListTableViewController.swift```
+- The Block Details screen is implemented in ```EOSBlockDetailVC.swift```
 
-Models are in the models/ directory: 
-```EOSInfo.swift``` is the model for the preliminary information fetch which obtains the most recent block number.
-```EOSBlock.swift``` is the model for holding Block data
-```EOSTransaction.swift``` is the model for holding Transaction data
+Models are in the models directory: 
+- ```EOSInfo.swift``` is the model for the preliminary information fetch which obtains the most recent block number.
+- ```EOSBlock.swift``` is the model for holding Block data.
+- ```EOSTransaction.swift``` is the model for holding Transaction data.
 
 This project uses the new Codable mechanism in Swift 4, for JSON decoding.
 
@@ -51,7 +51,7 @@ After a few seconds, the blocks will be shown in a list, as follows:
 
 You can scroll down to see the rest of the blocks.
 
-To see the details of a block, press one of the block cells.   It will open up a Detail screen:
+To see the details of a block, tap one of the block cells.   It will open up a Detail screen:
 
 ![EOS Block Details Screen](/images/Details.png)
 
